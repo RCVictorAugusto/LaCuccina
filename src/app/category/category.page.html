@@ -1,0 +1,100 @@
+<ion-content [fullscreen]="true">
+  <ion-grid class="view-mobile-start">
+    <ion-menu contentId="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-button color="tertiary" expand="block" (click)="navigateToHome('home')">
+          <ion-icon name="home-outline"></ion-icon>Principal
+        </ion-button>
+        <ion-button color="tertiary" expand="block" (click)="navigateToProf('profile')">
+          <ion-icon name="person-circle-outline"></ion-icon>Perfil
+        </ion-button>
+        <ion-button color="tertiary" expand="block" (click)="navigateToCategory('category')">
+          <ion-icon name="book-outline"></ion-icon>Categorías
+        </ion-button>
+      </ion-content>
+    </ion-menu>
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-title class="ion-text-center">La Cuccina</ion-title>
+        </ion-toolbar>
+      </ion-header>
+    </div>
+
+    <div class="recetario">Recetario</div>
+    <div class="a">A</div>
+    <svg
+    class="line-6"
+    width="350"
+    height="18"
+    viewBox="0 0 350 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M15 7.5L0 0.339746V17.6603L15 10.5V7.5ZM13.5 10.5H350V7.5H13.5V10.5Z"
+      fill="#7C679E"
+    />
+  </svg>
+  <svg
+  class="rectangle-18"
+  width="418"
+  height="95"
+  viewBox="0 0 418 95"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="M0 0H418V95H0V0Z" fill="#D9D9D9" fill-opacity="0.1" />
+</svg>
+<img class="rectangle-17" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_yKsjjyCSnbQF65F22l4KQvlMNgoShOByWA&usqp=CAU"/>
+<div class="amatriciana">Amatriciana</div>
+<div
+  class="la-salsa">
+  La salsa a la amatriciana es una salsa italiana usada para condimentar pastas;
+  su nombre deriva de la pequeña localidad de Amatrice
+</div>
+
+  <svg
+  class="rectangle-181"
+  width="418"
+  height="95"
+  viewBox="0 0 418 95"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="M0 0H418V95H0V0Z" fill="#D9D9D9" fill-opacity="0.1" />
+</svg>
+<div class="b">B</div>
+<svg
+  class="line-7"
+  width="350"
+  height="18"
+  viewBox="0 0 350 18"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M15 7.5L0 0.339746V17.6603L15 10.5V7.5ZM13.5 10.5H350V7.5H13.5V10.5Z"
+    fill="#7C679E"
+  />
+</svg>
+<img class="rectangle-171" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYZGRgaHBwcHBwaHBgeGhkcGRoZGhgYGhocIS4lHB4rIRkYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQsJSs2NDU2PTQ0NjQ0PTQ0NDQ0NDQxNDQ0NDY2NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAIDBAYBB//EAD0QAAIBAgQEBAQFAwIFBQEAAAECEQADBBIhMQVBUWEGInGBEzKRoUKxwdHwFFLhFWIHcoKi8RYzU5KyI//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACgRAAICAgICAQQCAwEAAAAAAAABAhEDIRIxBEFREyJhgTJxFKGxBf/aAAwDAQACEQMRAD8A8pVOZroMU0vOg609bcb1ibt2PD1GXplx9aYmppqInIkiTVizh+ZqWxhqthIp9C7G28P1pj5pP9tXFBOgqHiKhFg/M32FAnoB5S7mtRwnhpIGlNwOFR1t20XWZLHvuK3eC4WEAEU19xKfsq8IwgRgTp0o7icKzI2UyzAwTynaoHi2VJGh0irdrFByFkZmBgelc2SlN2dcP4JoAYHgD2U87hnJJJ1gDtNYvxHZb4jSZ0EHtFepY2w5Gh1IOvKsXxfg7svmILa7bDtNZ3TKjJrZ5+WMwN9qIW+CYg6/CYQJ10/Opb+CawxzAAmCH6enepLniHFAZWuEjoYJj1rpTtaM3mdggW2/tP0pwtnmIojcuM40aEGrd+1Drt5mYE0k2ylm0XsNgg4obicEVYjX1rSYC3lGbMNeVFsNwoXRJEE8+ntURm0xTqS2YXD2mJAAq5cwN1ZYKSu5aK1F7hqWr2TdYBkxR+3at3UKI2Vojr9qvlbM1GK7PL3YkTNQI+up5RRLi3Dns3GtvvuDyI5EUIC61cUPK9Kgpw/ANcDZYkCYJ3A6d6pXUINXeFXyraGm8QWGJ61Kb5UHGkUTeI1B1mvXPDPEy+GVmO4j0I0ryP4ZOgEk7Ab/AEr0Lwx4XxhtBWY20JkLz9+npVTWrXZFJM03wz/eP/qKVd/9MP8A/M30pVl9/wADtfJ46iRrUdy4albzHTapbWGrdIhsqpYJ3q7YwwkVKbRA0qxgcOTypNgkS2rdXcPgi5iKvYHh81osHgABEU1GxNlHh3BlAkxNBPEvAHDG6ozr0G6/4rd4bDBRFWRhwRHKq42iZM8uw2KRF0MH0qxa8T3k0V5HetdxLwnbuSQIPas3ifA96fIw96yeKSdolBDHeIFu2UZdHQgkfr6UQ4VjrVyGc5XGsgxHp1oVwbwveR2a7kKFCsAmfWh+IsG25GxB0rHLCX8mdmCWuJ6iLgIBEMKH8VweZWyRJGk8qwtrilwMCztAoj/6oua6KR1O9Zcr00a8Phk/GeHq+HhgpdBDQenMGvN8XaaY3H3it5e4klwHMhBO5Ux9azOLwmsqdDtVwk0zKWHdlF8QMgQLVFhRlcA5EgSNu9JOHZvw7e1aKSRLiynhuJFFy5Qa1mF4vkNohZDkAgd6zWI4QY8tX/D95rLgXVzISP8Ap7ih8XtDXLpl7xwuR0dHgsIg1B4XwVzEZiz5VEjNOsit1xbC27uHGdA6bg8x6HlWRxWLS1bdlUpoqKv2zetN0tUSrewN4qwoQqDd+IwJ1O/oKALakEgjQT/4qPEOzMWYknvUWorRRpDU/TLVo66VYutKzNUrdxhqN6a4Y70cdg5L0egeE8VhvKVsj4iiCzCZPMg16D/raKvtyrxnhXGBbXKV1HTnRrA+JlchXXKCYnpWbcldEtRl2el/6yKVY/8A1S1/8q/UVyp5zDjEwq2KtJbp4SrWHw810EDbGFLUZ4bgSTBp+BwlH8FYggjca069isWGwqjb6nrRO1ZiozbbL5YzVPgMO8y8egp3uqE17HYfDQSddatpbqdUpyirSozbsjKVwW6miuhaYypet6Vl+PcLzgkb1snShuJtgyKmSTVMqMmnaPKMQWRsrAj8qiFwEwDW74jwpXmRWVx/AMuo0rlniS2dUMkpaXZRS8wBg1G2Jgaido7VYPDFQAszGdo0H+aiOEXkxInqP1FYc4nd/h5mrr/ZeSVCusjmRUwbN5pj0oY+KdZEZgNo3juKrW+IFSQylZ10q0uS0cs04OpKgyiGYzSOc769669hG3mNt+lC04sg3J+lObjKcpNPjL4I5IOYbiD20+GjQnQyY9JobjMM1zV3Lf7Rov2qj/rE7AVLbvO+7R/y6UU0K0yRuHIRogqli+FqR09KsvdZdiffWkt2dzFNWtidApeFmJVvrUn+nPHI0RKDea6r/Sq5Nk0ig3DmjaqwwjTFFnxHY1Te72IppsHRW/oG7Uqtf1I70qdsnQWw2ELHajmE4dFGMNw4DlRC1he1bqJm5FDDYTtROzh4qxbsxUyJVUQ2NS3Vha4op4pgI04VwCumgDpalmqNFiSTNdBoCiWoXsCZqVaiv31QeYgfmfQUm0tsEm3SKd3D1kPFJCsiDuT67D9a2OL4iiIzmYUTqCJ6V5lxDGG45cmJ/n1rj8nImqi+z1v/ADcElP6klpEd/EFgqnZAY9CST+dUr0cqmuL7VSvPB10rjgrPYedLoet8jQifzH7+lRugcEqSCCR30MGR7VCWBE8j1rlt4git1Gtrs5ppZH91VXX5+SSxhWYHMoBB0jmOtdbADpVjDYqGDQCQduTDpW8wHCsNiLYuICvIrPytzUzWqy/J5ebxXB66POkwAqcYXua1+N4DkmOtVH4WRuCParUlLo5nFx7M2cMf7jXPgt1o8/Do5VA+DPSq4k2B2tHqaZ8F+TGjBwbdKb/RHpRxCwM2Gbmxrgwnc0aOCNcOEbpToQG/pT1NKjH9E3SlRQHqaWqkVKlC1xq3MhtOArkV0CgDs13NXK5FADi9Nz04JXSijc1LdAlfQ2agv4pU+Y/Sk913OW0hO/mPyiOZNSYbhoUFmhmGpY9ei9Kwnmb1Ffs3jiS3J/okS5mWVB166GqOItKnmY7nUmfoKI4eyxGZdRzP83qw/C1aPPvqJAj3qGpTVstSjHSMT4nxofDuEBiVk9gwrC8Gwb4m4yIRI11IAVZ07mvY8bwglWQwEZcpCgag7968zxeDfCXWCfNuGAEuAdB1naRWUo8XtHbgm5xUYOmnf9hjAeF0YqC7Shh+jHtPLai+KTBoxsBLZdVllyqWg6A6ig/hzi90uz3EfK4lDkYJp0aII1FEmw1u5e+MFUP5c5G7BY0+lNThHXs5c+SUZ1KRlvG3D1V0dUCAiCAAJ5gwPesm4G/OvUPGvGLNxBZZVlgcpB86uNsqxJ1iY5GvNeLcNu2Wi4oUgmRIJ9fSq03p6NsOe4pFdWrSeDOMtZxCgn/+bkK4O2ugb1E1lUei2B4cWhmzDaAolj+1TKo7Z3ayRo9sxeDRxB58s0SO1AuI2EttkLEJuAdY994rGYniT3YYtmBBAM/26R/4qqcaSvmJgdz/APmaxllt6VGUPCfG+Vm1TDqYnnr2+tSHhw6VmuC8XVJV/Oh7iVPUA61r8BdQoCHzKT5ST/2+vY104cyf2yOHyfFlj3RRbAjpUR4f2o81sVzIK7KOKwD/AKcKX+nAUe+HTGt0UKwJ/RDpSo18OuUUOwpFcIqaKYRTERxSy08LUqJQBCqVMlqp0t086UAZHxVxJ7T28hj5p0B1GXr60DbxBcP4oJ7LLHYctaIcbZL7myhGZfMWnQAeUj3LfagGI4MybmRO2o9x0O+teLmlKU27dfgcmouosdj+MPBQXHcEzq7MAT/apMKOwox4cw0KzuJfnJmBvAodwzgMmZkRPcdZArVvZRbOVCIy6MOvWaMUG3fx7fsylIo3uPPaOWSUaZA0IBA8yNyOx6a7UdtcX+IilDmXbTfloehFYDj96PgjmbSFvdRH2qvhvEL4cXEUEZ1AUjdW3BHsT9BWmPJNSpvRrik7Sq7PVUx9pTkuXkB08jMoOvWTp6VcNu0pDEIDyMCdec15Ld4xm+FbdcmQhiU+YgzmR5+adyZmec1p8NxpCES26KEMlYPmUAyqyfLrG20V0QzJun+jpeKaXJbX4BX/ABC40fjhLeQi2oUjNlbN80iSAYkD61kMPx+87fCY/DnUmCDAEEnqYon4oVTiLpI5yAe4HWsngbGe46zBKnLvAaRG381rNJTbvs5Wm3RufD3iS1bv5cm6ZVYkklwdCZ6iftXfGWMS9bAYbNMwJGkaHcUCTwziRByAkQQVYSDuCJiuXrtxrosukMPmQakQJ1I0qlaVL0dGHiuzOYS3LheU6+1aXDW2cOVdgRrCkqWEGSGnlG1DcRg8l0lQYIOnNTIkVO3HHhlU7eVdIgRrFKdyaaPVwzUY18kWBtxZZVC583y5sztJAGRANO550Qw+Hi4LVwi2DEs6/KSASTAkif5vQC9i3yBVOUCflAlp3lt+XXp0FWOG3nMl/MZkZiZPqQZ+9VOKrkZ4ssoy4Vr0HvEXDbdplFtpDCZmZIIEjQQO1R8E4qcPdBYF0kZkOkxzHRhyoelyAM089Cdh26UnubweYPr78h2rG96OtS5Q4y2e6Yb4F22HSCjCQw/m9Ur+HCtAM15/4P8AFTYd/hXf/auGQT+B9p/5TAmtlhcbnuPPt7V3Y8qdWeJnwSxya9FspUbLViKawrc5iDLXKlilQAQYVHTBmGkyPuP3FWbVuaAOWrU1YCRThpQvinG0tHIIZ4kgmFXSRmaNCeQ/KplOMFcioY5TfGKthImor+qkSRIIkb+1Yt/EGIZvmAUgmQF0bWFOb0otwLit26wR0VpOWQQGHMkjYiPSuZeTCT4q9nXLwckI8nWinh/CaWh8VWdmPlOZgQQYJOgGsqPrVk4BRq1afiQVLZ6CPbWsTxPjKKD5jp0AP61hlUIM4MneghgkKkuBA5DnFA/EFzMxCOVJ+ZeTdSB/d+frQrEeMYnK10dgLUfdTQTGcdFwgs7iP9ifmpH5VMo3ComaTFxPiBd3ciJOg6AaKPYAClcchly/MYAP9sLBy9DodaH4nzsMsksQNokkxMUYw2GL3MxMBB5ucRMn6RWUqirZXRTxBCsF5iJ/X7k053n5h7jQj0NWbWByk3b7AEklU0mWkiY6DrQz42YnuTQqfXr2el4E2rj6JiGMsxZtfmbUn3+3tQ++CsusgwQD3JWP1NF+HY+yvlvHIqzBCsc0kEzlnaN+9R4/iOGe7aVGbID5mYEJuCp1M8iDI51tBNO6ZzZoyjketB254pZcrC15Aql8yscrMIliIygkHXWaHm/lxF+7bVVVkVlLEHKxVQVVQDn1kiIGvXSpcfjlRiuZXS4oDDQyPMDy/wBx67mhWJdFd2dQwNtyhVfLbcCUcAbDNuORPQ08U3OvyYxq6aDL+F3wtrM7o3NtGEMdCJjUCZ9jWSu5c+UMGOYhiBA33WTqI9K9CXjqY3D/AATdRLzKvlc+UsROSevpJ7V57xfg9zDPkurlnUHRgRJGYRuPoa24K2/k9DHkfFJehYm2oPlMjvE/TlVnAKJAmKHWcKSTDBtDJ5QOcmpMM8NpUzjapM1jJvbCvEQzNmJk85Oum1UyhAk6LzYg5R6xRnC2hfZUXRjuTtEb1R8Q22Rls5hlQDMFUJJIkZtSWaIJJPPQCs8cfkU8zTUY9kGGJIEnMsxGXVucx/nmK13D8eVCWydUAKsCJy7oD1MSPas/wTjq4dHT4CO7bO0HLpGWCNt9utO4TF9776qxRmQIIGdYgRtqBt3pyj7RpOVqmuj03hHERcWPxroR+Rq+TWP8MY3RHKmWlTpoI09tRWzC114JuUd9o8zNHjLXTI4pVJlpVrZnRYArqkjUaflXSNKQWmBX4lxDJaZho+wnqeffma894hiDkcg+YswDEAnSCxGYEN8w9zR7xZfDorBpUNAgnbYkjbdTBrIYq7eCZF+GqZlcscoZwJAXMx+XsNda87Nk5Tr16Pa8TH9PC5Vtvf8ARPw8M+UBgTpmnQkfiIjQH2it/wCC+HhAbjBs7aSQQoH+2QJmN+wisNwlCl1nQ5pWZUFraiNcwiZ9vStafFbZQiEO408oOvIEDptUYVGMuUv+B5WZ5IuMevew1x69IaGAABOuxj1ryHjXEFOwMEkdBI3jryrWX7GJul86g5hAknKusnQbmg3EfCrsvnYE8hIAA7ToPQUskoympNaPGyOPVmQa8CKhMetPx3DXtmINDmzDea6Ixi1cWZoIJeyQZgggjXpRbCedHmc4UyROx3MfWgWCwD3WIUaCCzMYVAebMdvTcxoDWqsFFRrdpifLDOQQXIHT8KDpvWWdJLXZb4pL5Ar2HgucwQbsx1Ynqep00FUkv1FibzM0OSSNNSTHpNRgVsoa2d+FKKssYlpFQ4S4iuC6lk/EBvHbUT6TUly2VAkGDsSDBjeDzg6VVuLVxSqgyrkgtct2SwNt/KZOUqQVPQ/4nak99lICGSsnTWJEa9P8UNwttjspI6gE7b7VtfDuHORQwgak9511rOUafdnEo72ZOzhiHXMxGbUtAYgHdoO9eo+GMOt3Cohh8juPOssUDErEkxy0nastY4T8W9edGVERgskSZCrIVdJ1mtb4Ry2viqSxGZfM2UGSuoCqSAug770XydMqDcXoyXizB+T4iIUVWZGVY+GGBn5fwkgk+1ZBbnt6frW9/wCIVxWD5BMkDMBqdiZ7gLE9Kw62CYI+XTNGsdTTjSWzoeTezXcE4HaOGF97rJcUM4C7oFEiRudIPvWduMWbMzFifmmNWO5NSYzE5EW0jsFIlxm0J6GN/wDFVVuoo7xrJBk84HIUu9ixK7kyy6hgAAFAmST6fyO9HOBFcORnUwAGUtENmP8AaNZ/xWQt3ZIyjmIncmtDxHGuyoGEZdddzSknHRo5qSNlgrkguiwSSQs6AkyT+dbG08gHqBWJ4dgs1lGZipXzQB22P1rYWDoB2FV4t2zHyKpFrNXKbFKus5i3lpt94Hc6fvUooLxNyb6CcqgBiZGsT5QPpPtWWaXGNmmGPKVGe4wHd7ihJRF/CNFAjX8/as2FDgo3tXpLucsC3mDE5gCAYM6nuRXnHEsI9tjIIAYhT1A78yK82UaVnueNlTTgyTA4RiwS22VTbyvAMq07nrm1P20A01PCbdvDoZI03ZoLM385Cs3wzjSoMrhomZSJnvJ29Opq9icUrqCjl0EkhdIPRgNQexq1JpWeV50ZqTVaDz8YuNOSx5f7rhVB/wBxn7UOxHG9GzGyIGuRnaOg2hidfpWUx3EHaUByIN5n6+vaqyuDGyquoncnmzdSamUnKOzz+ISx99H80RruoOv/AEn9KK3OHYcWg+TP5ZJVQQBzLNED61lm4mA3yhlGwP8ANKfxTxNduWxaEIkQVWdexJ5dqjHjktA4hItZdcqlVSZgFdT1Y5tT3NUcfj8PbTIrCNyqeZ3I5M2gVe351lr2xqkBW8PFV25OjSGNN22T3bmZi0RJmpLa9Kq09XIrra1o7oyLz3CRl5T+h/f7Cqj103id6jYzSSoqTNN4cuFreWNAxg+uu/vWiw99U0bQyPvWMw/Eylj4aKcxJluQ1kR3qsLl4jOXgA6Zm1JGpAHPepcd2c8mjU4K/kziCZuNlnnmYgCD1/WtDhrPwlGvITGkk7ke5JrGYrHZAgCgnRyynXU6Az/NKnbxPoAZnpGgHXQ1koN7Ji0gj4pa2i5iZYhgAG+YsI2/WstwtyVAHUg+vKjHEcal+3kCMG0liBCwQetBxhCmoO55Rr6VdLjXsck2DL7QSsQQY+lT2OH3GXPlOXqQYM7R1p7WUJ8wac2pkRGnKNfqK34u2ksC6uTKghO51C5UJJJMgks2gmK0lKloluRlOH4Q2yVfRpGnSQPoaK4m0tx1BYKNpidBQ69fLHMeZn1muO5ZlAMa71zytuzpgqVGxbiKkqiwROvSJ5etavCXpArzrh6a6Vu+FPKiujx40v7Ms0rYYzGlTc1KumjnCPvWY44rnFIqICSoMnkFaWJnpFagCqOLw4+KjzEK67fNJVgPs1YZ48om2CXGX6KhtwdbkSdhpoZMR1IO/p70+I8Ot30RCzIqzHckiSQR20MiqHiQsMzgnTII5fikzzPmUfSg+E4w4IEkjoTy964eS6aO2n2mA+LcPeyxkEpJAbSYBMEwTEjWqmHvFWDoxVhswj6MDowrdcasq6oAoJMkFj2JJOu0aVgbzqpMCBPLaiqejdZFKNTLOO4gLg86AMPxJJUnuNx96F5jtMj7VK5G4P0qG6RrprVJI5cniw7i6JAk86gvAVA14rrlJ7gVwu78oHf9q0jB9+jilBp0NcTCjc1oMFwNRbLuoJiQDm07nKQY9KpcFv27bedNd8249COQrXcPxr3H8io1qPmkTP8AbEdKttrSLjGkZfg+FDvkfKBOUmFMSYmSDGo1r0PhfAcNYVl+Glxn+ZnVTI6ARAXsBQFPDzC4QiKQ5zZiwyIP7Mg1YjWOXcVqkw+VAuYkqoGYxJ0jMfpUR5Jt0TFO2mLBeHcEskYa2dSdVzb6/imBrsKx3/EPgKo6XkUKLkhlAAGYDykAbSJn0HuQwHihbN10CXHcsFIJZjO0oh2XSdBGs1b8XOHu20eIIzKxjVtQy67aR9a0cvts0S2eZDDOTt7DX61HfwbL825201r0dMCgQlTGsSZ05adTVZ8LaUQ5VyBPmg5ehkjQ1n9Wi/ptnnz4QrBMidT29aMYHDKFDAzO+mp96tcTuKxJWIIA/fXmKEtdcaDQbabU+TkieKiwhcxCKYAUCJ2gzUL41doH87UNuhuZqAvVLHY3Kia4wJmlnH8/Kq4kmACewolhOEO/zeUfetOJHIgW/RPAYZ31MgVewvCkTlr1NN4jj/h+RIzRqeSj9TScUtsHNpBnDWgoAFaXhOwrF+Fs7K0klQYE667kDttW74bbgVpHZm3YTpU/LSrQkKVWxrhVLGrIqDFpnRlOxEenSlNNxaQQaUk2ZnF2vj2Gyd8s9VI005E868/weIZLwW4CAGhgdCv7RWsxlrEpcLWZuLmhkjUaAQw5jQa/5qfE4a1duMuJw0MpQK4LDMpn5iI0BEa6aj28v3s9Nr4Cb4EmyQ6zHXTMJkbVj8RwYK7u4kOGOWDCzM6+hNeitfBQKBGgAB07UHxuDV50Jk66kDvz1OnStGl6Mk2uzzi/hQvlCg6Zgok68j1OlUcPaZmgpA5tl0A3mY3rdPwiD5csAQNxG8wY1JH50PbCQT83M+oHIa60KVA9gI4UEDlJO41IHPTaagfBHWJ06bnvrRnEhBlYwJ5mBGp/Caa9xDDr5gDGhiOszRyJcQJcwDcmOwnqftrXbNhkb5yhiT07FuQoscWpMqxjYdPWB/NKr3cVm0HSCBB+9HJi4jrHE8Qrg/EkCJAjUDcfLGtGcB4sKkrcHkMw05inTSAWX3mgC4VzroJ2E0r+FCAEnpIPOd9Z0501J3oOK9hSzhzcxy3bDK6EZnIPyiCuUjcHRTFGfFOICNbn+1pgidxEjpofvWKXzEFREfaO+5NTFy7AHMzbbz9at7VCSSdhO/xN4IQiZBGxAHYnnQvEYp3nMxP8injKsrMnmACfuNPvTUwbsdoXnO5pRh+BymCr9/kCfcCqoDufKCT22FaO3wVN283blV+1hAugWK6IxoxcrM1Z4Rcf5iAPqaI4bgiLvqe/7UdSzUy4aqomwdhsEo2UCprjInzsB6nU+g3NVuLcQ+H5EIL7EiPJ6/7u1UuF8FN1s7TlOsndz76x3qW6dITkLE8bJ8tpDJ0BI19lFWeGeGnds94kA65Z8x9Ty/m1aPAcGRPlXXqdfYTyoth7BpqLfZJHgcAqAKqgAbAbUbw1uKZh7NX7SVqkJs5FKp8lKmBOTUVw9anK1E60AZnj6FGF1DlO0z9P2qlguIuQVe6FkyJzg+kjQag860ONthgQYIOmvOZ0+xrD8RsG3AM5Rop6a6KfrvXJmxW7R1YctLizQXb4RVzsfMRBLEdYGcMTMTyqLF31KGXyrG4aY5TmUntpFZ1MSQDlYrM89DNV7NwrCzKjueeh561y8WdHJML2MO+jC+zJ/wAhk+gYmq9+4BJiIJhRA8p6jTWaYXDnM7s06BZgAdMo6VDdyMpFsN/u0106GJ96axslyRnOMrmb5vr+QFR23ITKpAXaCfMepMbCn45xmMDtBmfX6zVVEdtvoBW0VqjOUknY42nI0EgdI5c+0a1f4fhyoJLLO8aEiDuaVjAvMka99ft+9XEwRPzMT22FXwbM+aI/6yDtP2qC6xZjAJHQ6L996JphFHKp1t01jQnNgexgyTE5emn8irtvhI5kn1/ar/wafh1OYLOm3L2q+KRPJsjtYMLsKnGHq6bMU9LVVRNlFbFTphSeVX0tCrSWqdCsHphB0mnYnh5dGQMULAgMN17ijNvD1aSyKqibMTwvwgE+eHP233g8/WtLYwIXYUVW1Ugt0KKXQrB6YXtVm3hqtrbFShKoZClup0SuqlSAUANy0qfFKgB5FRstSkU110oAo3xQbiODDgg0eupVHEJ+v8ik0JOjz/GcPKEx15VQfClhrNbrGYQHl1/WgWJwWUzWUoI1UwGcO8aOQPb9aX9K5/Gw0/Dpp7CYopkGx+lPRKXBA5MEDhizJE9yZ/OrdnCAcv57VbymnKlPiDZX+H2infDqwE3FOFunQrK4tzXfhdKuJZPMVItqKdCsprbpwtA1byTprI7V0J2ooRy2x5mfUa/apkfUSNOcTNSWbHarqWBVUKyOzbB2++h+hqxbSnrY2PSrAtyNZ/L8qdCs7bWplFNKRsGkffvO1PynflTGPAp4FRqalBoJHAU4UwGng0FDxThTAa7NADqVcmlQIlNVDh2+IXLmIgJyA/erhrlKgsgdKrXEq6wqNlpiBdyzz/hqjdw2kfw0cdKr3LU0AZnEYH+ddKrNhiNxHrWlexvpUJwvalRVmfGH/Lv+VSJZnl/mjJwo6V0WRSoLBKYbWrC2gNhV34VdyUUFlMppyqMrVwpXTaFFBZUCU5Lc8qsmzyqS3Zp0KyO0lW0SnpYqdEpiGIlShKeEqRVoA4ErgTpp+tSZaRFAETDlHuP2rhUgTU6im/CEzz9/yoAjBp4ek6HpJ7afY0ksmJOnQUAODV2aZXM9AEualUWelQBfNNPOlSoGcG1MubUqVAiJ9qiP6/oaVKgCA8/51qNqVKgBr1Cf1pUqAOmuftSpUAMG/wDOtPpUqChy0+1SpUCJ1qRaVKgRKtdXf2pUqAHLSNdpUAdFdpUqAEKjbceh/OuUqAE+1QHlSpUAcpUqVAH/2Q==" />
+<div class="bruschetta">Bruschetta</div>
+<div
+  class="popular-antipasto-o-plato-de-entrada-que-tradicionalmente-consiste-en-pan-asado-frotado-con-ajo-y-cubierto-con-aceite-de-oliva-y-sal"
+>
+  popular antipasto o plato de entrada que tradicionalmente consiste en pan
+  asado frotado con ajo y cubierto con aceite de oliva y sal.
+</div>
+
+  </ion-grid>
+</ion-content>
+

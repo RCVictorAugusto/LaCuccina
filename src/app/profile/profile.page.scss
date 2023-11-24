@@ -1,0 +1,338 @@
+.view-mobile-start,
+.view-mobile-start * {
+  box-sizing: border-box;
+}
+.view-mobile-start {
+  background: #301c51;
+  width: 100%;
+  height: 1500px;
+  position: relative;
+  overflow-y: auto;
+}
+.agregar {
+  color: rgba(5, 5, 5, 0.66);
+  text-align: center;
+  font: 400 15px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 44px;
+  top: 878px;
+}
+.rectangle-15,
+.rectangle-15 * {
+  box-sizing: border-box;
+}
+.rectangle-15 {
+  border-radius: 0px;
+  width: 402px;
+  height: 232px;
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  overflow: visible;
+}
+
+.bienvenido-de-nuevo-usuario {
+  color: #185245;
+  text-align: center;
+  font: 400 40px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 51px;
+  top: 82px;
+  width: 328px;
+  height: 35px;
+}
+.ellipse-1 {
+  border-radius: 50%;
+  width: 121px;
+  height: 115px;
+  position: absolute;
+  left: 150px;
+  top: 179px;
+}
+.mdi-heart-outline {
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 7px;
+  top: 391px;
+  overflow: visible;
+}
+.mingcute-save-line {
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 7px;
+  top: 469px;
+  overflow: hidden;
+}
+.group {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.vector4 {
+  height: auto;
+  position: absolute;
+  right: 88.48%;
+  left: 3.72%;
+  width: 7.8%;
+  bottom: 36.39%;
+  top: 59.12%;
+  height: 4.48%;
+  overflow: visible;
+}
+.mingcute-add-line {
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 7px;
+  top: 623px;
+  overflow: hidden;
+}
+.group2 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.vector7 {
+  height: auto;
+  position: absolute;
+  right: 85.58%;
+  left: 2.56%;
+  width: 11.86%;
+  bottom: 19.74%;
+  top: 74.81%;
+  height: 5.44%;
+  overflow: visible;
+}
+.favoritos {
+  color: #ffffff;
+  text-align: center;
+  font: 400 32px "Limelight-Regular", sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 403px;
+  width: 172px;
+  height: 33px;
+}
+.guardados {
+  color: #ffffff;
+  text-align: center;
+  font: 400 32px "Limelight-Regular", sans-serif;
+  position: absolute;
+  left: 62px;
+  top: 483px;
+  width: 204px;
+  height: 33px;
+}
+.mis-recetas {
+  color: #ffffff;
+  text-align: center;
+  font: 400 32px "Limelight-Regular", sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 563px;
+  width: 205px;
+  height: 33px;
+}
+.mi-equipo {
+  color: #ffffff;
+  text-align: center;
+  font: 400 32px "Limelight-Regular", sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 635px;
+  width: 172px;
+  height: 33px;
+}
+.historial {
+  color: #ffffff;
+  text-align: center;
+  font: 400 32px "Limelight-Regular", sans-serif;
+  position: absolute;
+  left: 62px;
+  top: 788px;
+  width: 172px;
+  height: 33px;
+}
+.chef {
+  color: #ffffff;
+  text-align: center;
+  font: 400 32px "Limelight-Regular", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 713px;
+  width: 172px;
+  height: 33px;
+}
+.iconamoon-history-fill {
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 11px;
+  top: 779px;
+  overflow: visible;
+}
+.iconamoon-arrow-right-2-duotone {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 368px;
+  top: 400px;
+  overflow: visible;
+}
+.iconamoon-arrow-right-2-duotone2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 371px;
+  top: 488px;
+  overflow: visible;
+}
+.iconamoon-arrow-right-2-duotone3 {
+  height: auto;
+  position: absolute;
+  right: 4.42%;
+  left: 86.28%;
+  width: 9.3%;
+  bottom: 35.86%;
+  top: 59.87%;
+  height: 4.27%;
+  overflow: visible;
+}
+.iconamoon-arrow-right-2-duotone4 {
+  height: auto;
+  position: absolute;
+  right: 4.42%;
+  left: 86.28%;
+  width: 9.3%;
+  bottom: 27.53%;
+  top: 68.2%;
+  height: 4.27%;
+  overflow: visible;
+}
+.iconamoon-arrow-right-2-duotone5 {
+  height: auto;
+  position: absolute;
+  right: 4.42%;
+  left: 86.28%;
+  width: 9.3%;
+  bottom: 19.74%;
+  top: 75.99%;
+  height: 4.27%;
+  overflow: visible;
+}
+.iconamoon-arrow-right-2-duotone6 {
+  height: auto;
+  position: absolute;
+  right: 4.42%;
+  left: 86.28%;
+  width: 9.3%;
+  bottom: 11.95%;
+  top: 83.78%;
+  height: 4.27%;
+  overflow: visible;
+}
+.frame-2 {
+  background: #221438;
+  width: 435px;
+  height: 62px;
+  position: sticky;
+  left: -3px;
+  top: -6px;
+  overflow: hidden;
+}
+.mingcute-menu-fill-user {
+  width: 42px;
+  height: 40px;
+  position: absolute;
+  left: 14px;
+  top: 18px;
+  overflow: hidden;
+}
+.group3 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.gg-profile {
+  width: 46px;
+  height: 42px;
+  position: absolute;
+  left: 372px;
+  top: 9px;
+  overflow: hidden;
+}
+.group4 {
+  height: auto;
+  position: absolute;
+  right: -0.36%;
+  left: 8.7%;
+  width: 91.67%;
+  bottom: -13.1%;
+  top: 21.43%;
+  height: 91.67%;
+  overflow: visible;
+}
+.frame-3 {
+  background: #221438;
+  width: 435px;
+  height: 62px;
+  position: sticky;
+  left: 0px;
+  top: 875px;
+  overflow: hidden;
+}
+.bi-shop {
+  width: 43px;
+  height: 39px;
+  position: absolute;
+  left: 184px;
+  top: 4px;
+  overflow: visible;
+}
+.guidance-shop {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.bi-cart {
+  width: 45px;
+  height: 41px;
+  position: absolute;
+  left: 99px;
+  top: 6px;
+  overflow: visible;
+}
+.vector21 {
+  height: auto;
+  position: absolute;
+  right: 26.9%;
+  left: 61.38%;
+  width: 11.72%;
+  bottom: 17.74%;
+  top: 14.52%;
+  height: 67.74%;
+  overflow: visible;
+}

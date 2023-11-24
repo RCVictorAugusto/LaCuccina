@@ -1,0 +1,7 @@
+{
+  "name": "Cuccina",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

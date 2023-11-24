@@ -1,0 +1,82 @@
+<ion-content [fullscreen]="true">
+  <ion-grid class="view-mobile-start">
+    <ion-menu contentId="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-button color="tertiary" expand="block" (click)="navigateToHome('home')">
+          <ion-icon name="home-outline"></ion-icon>Principal
+        </ion-button>
+        <ion-button color="tertiary" expand="block" (click)="navigateToProf('profile')">
+          <ion-icon name="person-circle-outline"></ion-icon>Perfil
+        </ion-button>
+        <ion-button color="tertiary" expand="block" (click)="navigateToCategory('category')">
+          <ion-icon name="book-outline"></ion-icon>Categorías
+        </ion-button>
+      </ion-content>
+    </ion-menu>
+    
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-title class="ion-text-center" expand="full">La Cuccina</ion-title>
+        </ion-toolbar>
+      </ion-header>
+    </div>
+    <svg
+    class="rectangle-15"
+    width="402"
+    height="232"
+    viewBox="0 0 402 232"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 42C0 18.804 18.804 0 42 0H360C383.196 0 402 18.804 402 42V190C402 213.196 383.196 232 360 232H42C18.804 232 0 213.196 0 190V42Z"
+      fill="#1C275E"
+    />
+  </svg>
+  <div class="bienvenido-de-nuevo-usuario">¡Bienvenido de nuevo Usuario!</div>
+  <img class="ellipse-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe15-xUjkL-9P5KgfKw9yF5ik5JWZoH81B5g&usqp=CAU" />
+  <svg
+  class="mdi-heart-outline"
+  width="51"
+  height="51"
+  viewBox="0 0 51 51"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M25.7125 39.4187L25.5 39.6312L25.2663 39.4187C15.1725 30.26 8.5 24.2038 8.5 18.0625C8.5 13.8125 11.6875 10.625 15.9375 10.625C19.21 10.625 22.3975 12.75 23.5238 15.64H27.4762C28.6025 12.75 31.79 10.625 35.0625 10.625C39.3125 10.625 42.5 13.8125 42.5 18.0625C42.5 24.2038 35.8275 30.26 25.7125 39.4187ZM35.0625 6.375C31.365 6.375 27.8162 8.09625 25.5 10.795C23.1838 8.09625 19.635 6.375 15.9375 6.375C9.3925 6.375 4.25 11.4963 4.25 18.0625C4.25 26.0737 11.475 32.64 22.4188 42.5638L25.5 45.3688L28.5812 42.5638C39.525 32.64 46.75 26.0737 46.75 18.0625C46.75 11.4963 41.6075 6.375 35.0625 6.375Z"
+    fill="white"
+  />
+</svg>
+<div class="favoritos">Favoritos</div>
+
+<div class="mingcute-save-line">
+  <svg
+    class="group"
+    width="51"
+    height="51"
+    viewBox="0 0 51 51"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M12.75 4.25C11.6228 4.25 10.5418 4.69777 9.7448 5.4948C8.94777 6.29183 8.5 7.37283 8.5 8.5V42.5C8.5 43.6272 8.94777 44.7082 9.7448 45.5052C10.5418 46.3022 11.6228 46.75 12.75 46.75H38.25C39.3772 46.75 40.4582 46.3022 41.2552 45.5052C42.0522 44.7082 42.5 43.6272 42.5 42.5V13.6298C42.4998 12.5027 42.0518 11.4218 41.2547 10.625L36.125 5.49525C35.3282 4.69817 34.2473 4.25024 33.1203 4.25H12.75ZM12.75 8.5H33.1203L38.25 13.6298V42.5H12.75V8.5ZM34.5058 22.9351C34.7087 22.7391 34.8706 22.5046 34.982 22.2454C35.0933 21.9861 35.152 21.7073 35.1544 21.4251C35.1569 21.1429 35.1031 20.8631 34.9962 20.602C34.8894 20.3408 34.7316 20.1036 34.5321 19.904C34.3326 19.7045 34.0953 19.5467 33.8342 19.4399C33.573 19.333 33.2932 19.2793 33.011 19.2817C32.7289 19.2842 32.45 19.3428 32.1908 19.4542C31.9315 19.5655 31.697 19.7274 31.501 19.9304L22.4867 28.9446L19.4799 25.9399C19.0791 25.5528 18.5423 25.3386 17.9851 25.3434C17.428 25.3483 16.895 25.5718 16.501 25.9658C16.107 26.3598 15.8835 26.8927 15.8787 27.4499C15.8739 28.0071 16.088 28.5438 16.4751 28.9446L20.8314 33.303C21.0484 33.5202 21.3062 33.6925 21.5898 33.81C21.8735 33.9275 22.1776 33.988 22.4846 33.988C22.7917 33.988 23.0957 33.9275 23.3794 33.81C23.6631 33.6925 23.9208 33.5202 24.1379 33.303L34.5058 22.9351Z"
+      fill="white"
+    />
+  </svg>
+</div>
+<div class="guardados">Guardados</div>
+
+  </ion-grid>
+</ion-content>

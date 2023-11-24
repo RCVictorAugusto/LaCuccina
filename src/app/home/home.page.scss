@@ -1,0 +1,517 @@
+.view-mobile-start,
+.view-mobile-start * {
+  box-sizing: border-box;
+}
+.view-mobile-start {
+  background: #301c51;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: auto;
+}
+.start-hello {
+  background: #271f69;
+  width: 412px;
+  height: 118px;
+  position: absolute;
+  left: calc(50% - 205px);
+  top: 80px;
+  overflow: hidden;
+  z-index:1;
+}
+.frame-1 {
+  background: #1c275e;
+  width: 390px;
+  height: 81px;
+  position: absolute;
+  left: 11px;
+  top: 8px;
+  overflow: hidden;
+}
+.barriga-llena-coraz-n-contento {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 15px;
+  top: 89px;
+  width: 381px;
+  height: 59px;
+}
+
+.la-cucina-della-nonna {
+  color: #856d21;
+  text-align: center;
+  font: 400 32px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 42px;
+  top: 40px;
+  width: 423px;
+  height: 75px;
+  z-index:2;
+}
+.line-1 {
+  width: 350px;
+  height: 18px;
+  position: absolute;
+  left: -3px;
+  top: 285px;
+  overflow: visible;
+}
+.line-6 {
+  width: 350px;
+  height: 18px;
+  position: absolute;
+  left: -3px;
+  top: 521px;
+  overflow: visible;
+}
+.cocinando-con-el-chef {
+  color: #ffffff;
+  text-align: center;
+  font: 400 18px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 9px;
+  top: 489px;
+  width: 190px;
+  height: 32px;
+}
+.recomendados {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: -16px;
+  top: 262px;
+  width: 190px;
+  height: 32px;
+}
+.polygon-1 {
+  width: 153.29px;
+  height: 125.25px;
+  position: absolute;
+  left: 103.86px;
+  top: 302px;
+  overflow: visible;
+}
+.polygon-4 {
+  width: 153.29px;
+  height: 125.25px;
+  position: absolute;
+  left: 279px;
+  top: 302px;
+  overflow: visible;
+}
+.polygon-2 {
+  width: 153.29px;
+  height: 125.25px;
+  position: absolute;
+  left: 0px;
+  top: 425px;
+  transform: translate(12.33px, -126px);
+  overflow: visible;
+}
+.polygon-3 {
+  width: 156.75px;
+  height: 123.75px;
+  position: absolute;
+  left: 190.12px;
+  top: 425px;
+  transform: translate(0px, -123.75px);
+  overflow: visible;
+}
+.line-2 {
+  background: #7c679e;
+  border-style: solid;
+  border-color: #7c679e;
+  border-width: 1px 0 0 0;
+  width: 156.42px;
+  height: 0px;
+  position: absolute;
+  left: -10px;
+  top: 295.67px;
+  transform-origin: 0 0;
+  transform: rotate(57.317deg) scale(1, 1);
+  filter: blur(2px);
+}
+.line-3 {
+  background: #7c679e;
+  border-style: solid;
+  border-color: #7c679e;
+  border-width: 1px 0 0 0;
+  width: 85px;
+  height: 0px;
+  position: absolute;
+  left: 70px;
+  top: 427px;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+  filter: blur(2px);
+}
+.line-4 {
+  border-style: solid;
+  border-color: #7c679e;
+  border-width: 1px 0 0 0;
+  width: 130px;
+  height: 0px;
+  position: absolute;
+  left: 366px;
+  top: 300px;
+  transform-origin: 0 0;
+  transform: rotate(59.49deg) scale(1, 1);
+  filter: blur(2px);
+}
+.line-5 {
+  border-style: solid;
+  border-color: #7c679e;
+  border-width: 1px 0 0 0;
+  width: 61px;
+  height: 0px;
+  position: absolute;
+  left: 366px;
+  top: 300px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  filter: blur(2px);
+}
+.rectangle-1 {
+  border-radius: 25px;
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  left: 21px;
+  top: 530px;
+  backdrop-filter: blur(2px);
+}
+.categor-as {
+  color: #000000;
+  text-align: center;
+  font: 400 24px "K2D-Regular", sans-serif;
+  position: relative;
+  width: 124px;
+  height: 34px;
+}
+
+.rectangle-4 {
+  background: #d9d9d9;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 390px;
+  height: 45px;
+  position: absolute;
+  left: 21px;
+  top: 198px;
+  backdrop-filter: blur(2px);
+}
+.giada-de-laurentiis {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 655px;
+  width: 123px;
+  height: 24px;
+}
+.rectangle-2 {
+  border-radius: 25px;
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  left: 147px;
+  top: 530px;
+  backdrop-filter: blur(2px);
+}
+.massimo-bottura {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 146px;
+  top: 655px;
+  width: 123px;
+  height: 24px;
+}
+.agregar {
+  color:#000000;
+  font: 400 30px "Inter-Regular", sans-serif;
+  position: relative;
+}
+.rectangle-3 {
+  border-radius: 25px;
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  left: 273px;
+  top: 529px;
+  backdrop-filter: blur(2px);
+}
+.giorgio-locatelli {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 272px;
+  top: 654px;
+  width: 123px;
+  height: 24px;
+}
+.line-7 {
+  width: 350px;
+  height: 18px;
+  position: absolute;
+  left: -1px;
+  top: 750px;
+  overflow: visible;
+}
+.mi-libro-de-recetas {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 11px;
+  top: 727px;
+  width: 190px;
+  height: 32px;
+}
+.buscar {
+  color: rgba(140, 138, 138, 0.71);
+  text-align: center;
+  font: 400 15px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 39px;
+  top: 211px;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 8.14%;
+  left: 84.88%;
+  width: 6.98%;
+  bottom: 84.25%;
+  top: 14.07%;
+  height: 1.69%;
+  overflow: visible;
+}
+.vector3 {
+  height: auto;
+  position: absolute;
+  right: 26.9%;
+  left: 61.38%;
+  width: 11.72%;
+  bottom: 17.74%;
+  top: 14.52%;
+  height: 67.74%;
+  overflow: visible;
+}
+
+.rectangle-8 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 112px;
+  height: 168px;
+  position: absolute;
+  left: 18px;
+  top: 769px;
+}
+.agregar {
+  color: rgba(5, 5, 5, 0.66);
+  text-align: center;
+  font: 400 15px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 44px;
+  top: 878px;
+}
+.formkit-add {
+  width: 67px;
+  height: 62px;
+  position: absolute;
+  left: 40px;
+  top: 797px;
+  overflow: visible;
+}
+.line-8 {
+  width: 350px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 1007px;
+  overflow: visible;
+}
+.come-sano-y-rico {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 975px;
+  width: 190px;
+  height: 32px;
+}
+.rectangle-9 {
+  border-radius: 20px;
+  width: 112px;
+  height: 168px;
+  position: absolute;
+  left: 19px;
+  top: 1017px;
+}
+.rectangle-10 {
+  border-radius: 20px;
+  width: 112px;
+  height: 168px;
+  position: absolute;
+  left: 141px;
+  top: 1017px;
+}
+.rectangle-11 {
+  border-radius: 20px;
+  width: 112px;
+  height: 168px;
+  position: absolute;
+  left: 262px;
+  top: 1017px;
+}
+.line-9 {
+  width: 350px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 1244px;
+  overflow: visible;
+}
+.los-placeres-de-la-vida {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Italianno-Regular", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 1212px;
+  width: 190px;
+  height: 32px;
+}
+.rectangle-12 {
+  border-radius: 20px;
+  width: 112px;
+  height: 168px;
+  position: absolute;
+  left: 19px;
+  top: 1254px;
+}
+.rectangle-13 {
+  border-radius: 20px;
+  width: 112px;
+  height: 168px;
+  position: absolute;
+  left: 141px;
+  top: 1254px;
+}
+.rectangle-14 {
+  border-radius: 20px;
+  width: 112px;
+  height: 168px;
+  position: absolute;
+  left: 262px;
+  top: 1254px;
+}
+.frame-2 {
+  background: #221438;
+  width: 435px;
+  height: 62px;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  overflow: hidden;
+}
+.mingcute-menu-fill {
+  width: 42px;
+  height: 40px;
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  overflow: hidden;
+  color: #ffffff;
+}
+.group {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.gg-profile {
+  width: 46px;
+  height: 42px;
+  position: absolute;
+  left: 372px;
+  top: 9px;
+  overflow: hidden;
+  color: #ffffff;
+}
+.group2 {
+  height: auto;
+  position: absolute;
+  right: -0.36%;
+  left: 8.7%;
+  width: 91.67%;
+  bottom: -13.1%;
+  top: 21.43%;
+  height: 91.67%;
+  overflow: visible;
+}
+.frame-3 {
+  background: #221438;
+  width: 435px;
+  height: 62px;
+  position: absolute;
+  left: 0px;
+  top: 1450px;
+  overflow: hidden;
+}
+.bi-shop {
+  width: 43px;
+  height: 39px;
+  position: absolute;
+  left: 180px;
+  top: 4px;
+  overflow: visible;
+}
+.guidance-shop {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.bi-cart {
+  width: 45px;
+  height: 41px;
+  position: absolute;
+  left: 90px;
+  top: 6px;
+  overflow: visible;
+}
+.vector11 {
+  height: auto;
+  position: absolute;
+  right: 26.9%;
+  left: 61.38%;
+  width: 11.72%;
+  bottom: 17.74%;
+  top: 14.52%;
+  height: 67.74%;
+  overflow: visible;
+}
+.formkit-add {
+  width: 67px;
+  height: 62px;
+  position: relative;
+  overflow: visible;
+}
